@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Protest+Guerrilla&family=Viga&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #114155;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Oxanium", sans-serif;
+    color:#ffffff;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin:auto;
+    margin-top: 15%;
+}
+
+header img:hover{
+    background-color: #ffffff;
+    opacity: .5;
+    transform: scale(1.05);
+}
+
+nav{
+    max-width: 25%;
+    padding: 3%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav img:hover{
+    background-color: #ffffff;
+    opacity: .5;
+    transform: scale(1.05);
+}
+h1{
+    font-family: "Protest Guerrilla", sans-serif; 
+    font-size: 30pt;
+    text-align: center;
+}
+h3{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 18pt;
+}
+
+main{
+    max-width: 65%;
+    padding: 3%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+footer{
+   text-align: right;
+   padding: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#friends{
+    border: 1px, solid, #ffffff;
+    padding: 5%;
+    margin-top: 5%;
+}
+
+
+#star_one {
+    width: 100px;
+    position: fixed;
+    top: 300px;
+    left: 0px;
+}
+
+#cat{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+ }
+#duolingo{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#weather{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#tiktok{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#chrome{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#spotify{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#pinterest{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#twitter{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#map{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
+#instagram{
+    text-align: center;
+    padding-top: 15px;
+    border: 7px solid #943A7A;
+    margin-bottom: 10px;
+}
