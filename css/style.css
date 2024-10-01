@@ -43,12 +43,18 @@ h1{
     font-family: "Protest Guerrilla", system-ui; 
     font-size: 30pt;
     text-align: center;
+    color: #D24D55;
 }
 
 h3{
     font-family: "Protest Guerrilla", system-ui;
     font-size: 18pt;
+    color: #F8A205;
 }
+
+h4:hover{
+    transform: scale(1.05);
+    }
 
 main{
     max-width: 60%;
@@ -73,7 +79,8 @@ a{
 
 
 #friends{
-    border: 3px, solid, #ffffff;
+    border: 3px, solid, #3B97B6;
+    border-radius: 10px;
     padding: 5%;
     margin-top: 5%;
 }
@@ -82,5 +89,14 @@ section{
     text-align: center;
     padding-top: 15px;
     border: 6px solid #943A7A;
+    border-radius: 10px;
     margin-bottom: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+video{
+    border-radius: 10px;
 }
